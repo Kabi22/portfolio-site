@@ -69,6 +69,39 @@ a img {
   width: 50%;
   min-width: 800px;
 }
+.quote {
+  width: 700px;
+  margin: 0 auto;
+  margin-top: -40px;
+}
+.quote p {
+  text-align: center;
+  margin-top: -20px;
+}
+.icon-links {
+  width: 700px;
+  margin: 0 auto;
+  /* background: red; */
+}
+.icon-links {
+  margin-top: -30px;
+}
+.icon-links a:first-child {
+  margin-left: 50px;
+}
+.icon-links a:nth-child(2) {
+  margin-left: 125px;
+}
+.icon-links a:nth-child(3) {
+  margin-left: 70px;
+}
+.icon-links a:nth-child(4) {
+  margin-left: 50px;
+}
+.icon-links a:nth-child(5) {
+  margin-left: 110px;
+  margin-right: 37px;
+}
 
 #illustration p {
   font-family: "Courier New";
@@ -155,7 +188,35 @@ span.answer {
   font-size: 12px;
   line-height: 20px;
 }
-
+.resume {
+  margin-top: -20px;
+  height: 1000px;
+  background: #d3d0cb;
+}
+.inner {
+  width: 700px;
+  margin: 0 auto;
+}
+.resume p {
+  /* background: rgb(163, 163, 196); */
+  font-size: 19px;
+  line-height: 34px;
+}
+.icon {
+  height: 70px;
+  float: left;
+  display: block;
+  margin-left: -95px;
+}
+.resume ul {
+  font-size: 14px;
+}
+.skill {
+  background: transparent;
+  border: 1px solid rgb(134, 169, 209);
+  padding: 7px 18px;
+  border-radius: 10px;
+}
 @media screen and (max-width: 860px) {
   .portfolio-thumb {
     width: 90%;
